@@ -53,7 +53,7 @@ class Inputs:
     vmec_input_file: Path = COILS_DIR / "input.vmec"
     ic_file_cyl:     Path = IC_DIR / "initial_conditions_cylindrical.txt"
     ic_file_boozer:  Path = IC_DIR / "initial_conditions_boozer.txt"
-    nparticles:      int  = 100_000   # number of particles to load (set to -1 for all)
+    nparticles:      int  = 1_000_000   # number of particles to load (set to -1 for all)
 
     # Equilibrium
     nfp:     int   = 4                   # number of field periods
