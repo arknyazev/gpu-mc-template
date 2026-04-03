@@ -1,0 +1,72 @@
+
+==============================================================
+  Perturbation ID: 18  —  sigma=1.0e-03 m, L=0.50 m, seed=18
+==============================================================
+
+Gaussian perturbation applied: sigma=1.0e-03 m, L=0.50 m, seed=18
+B·n check:  mean |B·n|/|B| = 8.3890e-05,  max = 3.9003e-04
+Interpolation grid: 64(R) × 128(φ) × 64(Z)
+  error in B:        (0.004327781551678792, 0.04398749875551339)
+  error in GradAbsB: (0.34005032871725493, 6.088412115965163)
+GPU interpolant built in 53.3s
+Loaded 50000 particles from initial_conditions_cylindrical.txt
+Signed-distance check: 10/50000 particles outside LCFS (sd min=-0.117  mean=0.601)
+  Removed 10 outside particles; tracing 49990.
+GPU tracing done in 283.99s
+
+Perturbation   18 — Lost: 13/49990 (0.026%)
+Results saved to /pscratch/sd/a/aknyazev/april1/gpu-mc-template/4_robustness/output/
+
+==============================================================
+  Perturbation ID: 16  —  sigma=1.0e-03 m, L=0.50 m, seed=16
+==============================================================
+
+Gaussian perturbation applied: sigma=1.0e-03 m, L=0.50 m, seed=16
+B·n check:  mean |B·n|/|B| = 1.0822e-04,  max = 5.5405e-04
+Interpolation grid: 64(R) × 128(φ) × 64(Z)
+  error in B:        (0.004344266387311134, 0.04867961480668863)
+  error in GradAbsB: (0.3311187172015817, 5.006872139612911)
+GPU interpolant built in 64.1s
+Loaded 50000 particles from initial_conditions_cylindrical.txt
+Signed-distance check: 10/50000 particles outside LCFS (sd min=-0.117  mean=0.601)
+  Removed 10 outside particles; tracing 49990.
+GPU tracing done in 296.61s
+
+Perturbation   16 — Lost: 12/49990 (0.024%)
+Results saved to /pscratch/sd/a/aknyazev/april1/gpu-mc-template/4_robustness/output/
+
+==============================================================
+  Perturbation ID: 19  —  sigma=1.0e-03 m, L=0.50 m, seed=19
+==============================================================
+
+Gaussian perturbation applied: sigma=1.0e-03 m, L=0.50 m, seed=19
+B·n check:  mean |B·n|/|B| = 8.4165e-05,  max = 6.2510e-04
+Interpolation grid: 64(R) × 128(φ) × 64(Z)
+  error in B:        (0.004037057961264592, 0.04894936875702362)
+  error in GradAbsB: (0.30715742347284003, 8.66177654294599)
+GPU interpolant built in 38.0s
+Loaded 50000 particles from initial_conditions_cylindrical.txt
+Signed-distance check: 10/50000 particles outside LCFS (sd min=-0.117  mean=0.601)
+  Removed 10 outside particles; tracing 49990.
+GPU tracing done in 296.58s
+
+Perturbation   19 — Lost: 14/49990 (0.028%)
+Results saved to /pscratch/sd/a/aknyazev/april1/gpu-mc-template/4_robustness/output/
+
+==============================================================
+  Perturbation ID: 17  —  sigma=1.0e-03 m, L=0.50 m, seed=17
+==============================================================
+
+Gaussian perturbation applied: sigma=1.0e-03 m, L=0.50 m, seed=17
+B·n check:  mean |B·n|/|B| = 8.4119e-05,  max = 4.2812e-04
+Interpolation grid: 64(R) × 128(φ) × 64(Z)
+  error in B:        (0.004232368896208167, 0.040889804869561605)
+  error in GradAbsB: (0.2955586826082075, 4.873727838022871)
+GPU interpolant built in 40.1s
+Loaded 50000 particles from initial_conditions_cylindrical.txt
+Signed-distance check: 10/50000 particles outside LCFS (sd min=-0.117  mean=0.601)
+  Removed 10 outside particles; tracing 49990.
+GPU tracing done in 300.40s
+
+Perturbation   17 — Lost: 12/49990 (0.024%)
+Results saved to /pscratch/sd/a/aknyazev/april1/gpu-mc-template/4_robustness/output/
