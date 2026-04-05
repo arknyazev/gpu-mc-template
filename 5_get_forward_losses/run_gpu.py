@@ -206,7 +206,8 @@ zrange   = (0, z_max, inp.n_z)
 bsh = InterpolatedField(
     bs, inp.degree, rrange, phirange, zrange, True, nfp=inp.nfp, stellsym=True
 )
-print(f"[GPU {gpu_id}] Grid: {inp.n_r}(R) × {inp.n_phi}(φ) × {inp.n_z}(Z)  "
+
+print(f"[GPU {gpu_id}] Grid: {int(rrange[2])}(R) × {int(phirange[2])}(φ) × {int(zrange[2])}(Z)  "
       f"B-error={bsh.estimate_error_B(1000):.2e}")
 
 t0 = time.time()

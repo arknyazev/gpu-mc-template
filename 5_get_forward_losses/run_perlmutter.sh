@@ -17,7 +17,7 @@
 #
 # Each resubmission adds lost particles to output/.
 
-conda activate f3d
+conda activate mc
 
 # One timestamp per job so all 4 GPU outputs are grouped together
 RUN_TS=$(date +%Y%m%d_%H%M%S)_job${SLURM_JOB_ID}
